@@ -1,7 +1,7 @@
 {
-  "name": "gogo-react",
+  "name": "faceable-react",
   "version": "4.2.3",
-  "description": "Gogo - React Bootstrap 4 Admin Dashboard Template",
+  "description": "Faceable - Dashboard",
   "private": true,
   "dependencies": {
     "@glidejs/glide": "^3.3.0",

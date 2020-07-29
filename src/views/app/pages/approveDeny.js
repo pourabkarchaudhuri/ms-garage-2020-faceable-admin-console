@@ -7,7 +7,7 @@ import { NotificationManager } from "../../../components/common/react-notificati
 function collect(props) {
     return { data: props.data };
 }
-const apiUrl = 'http://localhost:5000/api/v1/wfh/approvedeny';
+const apiUrl = `${process.env.REACT_APP_API_URL}/wfh/approvedeny`;
 
 class ImageListPages extends Component {
     constructor(props) {
