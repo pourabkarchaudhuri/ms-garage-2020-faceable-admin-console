@@ -293,22 +293,22 @@ class Events extends Component {
                   {product.empId}
                 </p>
               </NavLink> */}
-              <p className="mb-2 text-medium w-15 w-sm-100">
+              {/* <p className="mb-2 text-medium w-15 w-sm-100">
                           Snapshots
-                </p>
+                </p> */}
                         <p style={{margin: '0px 21px 0px 0px'}} className="mb-2 text-medium w-15 w-sm-100">
                           Assigned Employee
                 </p>
                         <p style={{margin: '0px 25px 0px 0px'}} className="mb-2 text-medium w-15 w-sm-100">
                         &nbsp;Event Name
                 </p>
-                        <p style={{margin: '0px 25px 0px 0px'}} className="mb-2 text-medium w-15 w-sm-100">
+                        <p style={{margin: '0px 15px 0px 0px'}} className="mb-2 text-medium w-15 w-sm-100">
                           Public IP
               </p>
-                        <p style={{margin: '0px 19px 0px 0px'}}className="mb-1  text-medium w-15 w-sm-100">
+                        <p style={{margin: '0px 19px 0px 0px'}} className="mb-1  text-medium w-15 w-sm-100">
                           &nbsp;Region
               </p>
-                        <p className="mb-2 text-medium w-15 w-sm-100">
+                        <p style={{margin: '0px 19px 0px 0px'}} className="mb-2 text-medium w-15 w-sm-100">
                           Device Name
               </p>
 
