@@ -45,8 +45,14 @@ To create a `production` build
 $ npm run build
 ```
 After running this command, a `build` folder gets created in the root directory of the project.
-Copy paste the `src\web.config` to the root of the `build` folder
+Copy paste the `src\web.config` to the root of the `build` folder (For Windows)
 
+##### For Linux App Service, the `src\web.config` is not required at all.
+
+To run your React web app in `Azure Linux Web App Service`, and make any direct access on custom routes be handled by index.html you need to configure the startup command on `Settings` > `General settings` > `Startup Command` like the exemple below. Remember to change the path to your build path.
+```
+pm2 serve /home/site/wwwroot/build --no-daemon --spa
+```
 ##### Deployement to Azure
 * Install the visual studio code extensions for Azure
 * Select the extension and Sign in with Azure credentials inside the Visual Studio Code editor
